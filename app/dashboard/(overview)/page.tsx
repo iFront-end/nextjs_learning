@@ -1,7 +1,5 @@
 import {lusitana} from "@/app/ui/fonts";
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
-import { Suspense } from 'react';
-import {RevenueChartSkeleton} from '@/app/ui/skeletons';
 import {fetchRevenue} from "@/app/lib/data";
 
 export default async function Page() {
