@@ -12,7 +12,6 @@ import { fetchRevenue } from '@/app/lib/data';
 
 export default async function RevenueChart() {
   const revenue = await fetchRevenue();
-  await new Promise((resolve) => setTimeout(resolve, 500))
   const chartHeight = 350;
   // NOTE: Uncomment this code in Chapter 7
 
