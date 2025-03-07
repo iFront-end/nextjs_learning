@@ -5,8 +5,7 @@ import { Suspense } from 'react';
 import {CardsSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton} from '@/app/ui/skeletons';
 import CardWrapper from "@/app/ui/dashboard/cards";
 
-export default function Page() {
-  // await new Promise((resolve) => setTimeout(resolve, 1))
+export default async function Page() {
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
